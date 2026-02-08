@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
-# Writes "I am alive!" to /tmp/my_process every 2 seconds indefinitely
-
-while true; do
-  echo "I am alive!" >> /tmp/my_process
-  sleep 2
+#!/usr/bin/env bash                                
+# display all running PID                          
+                                                   
+while :                                            
+do                                                 
+        echo "I am alive!" >> /tmp/my_process      
+        sleep 2                                    
 done
-
