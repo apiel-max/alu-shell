@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Displays a list of currently running processes
-
-ps -ef --forest
+# Displays all running processes in a user-oriented hierarchical format
+ps -auxf
 
