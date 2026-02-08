@@ -1,5 +1,8 @@
-#!/usr/bin/env bash
-# Displays all running processes in a user-oriented format with hierarchy
-
-ps -ef --forest
-
+#!/usr/bin/env bash                                
+# display all running PID                          
+                                                   
+while :                                            
+do                                                 
+        echo "I am alive!" >> /tmp/my_process      
+        sleep 2                                    
+done
